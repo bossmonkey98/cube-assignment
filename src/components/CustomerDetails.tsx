@@ -27,7 +27,7 @@ const CustomerDetails: React.FC<CustomerDetailsProps> = ({ customer }) => {
             <p>{customer.details}</p>
             <div className="photo-grid">
                 {photos.map((url, index) => (
-                    <img key={index} src={url} alt={`Photo ${index + 1}`}/>
+                    <img key={index} src={url} alt=''/>
                 ))}
             </div>
         </div>
